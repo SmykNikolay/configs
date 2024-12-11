@@ -93,5 +93,5 @@ while true; do
 
   # Показываем содержимое файла
   echo -e "\n${BLUE}Содержимое файла $SELECTED_FILE:${NC}"
-  bat --theme=gruvbox-dark "$DIR/$SELECTED_FOLDER/$SELECTED_FILE"
+  bat "$DIR/$SELECTED_FOLDER/$SELECTED_FILE"
 done
